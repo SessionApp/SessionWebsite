@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Session App</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <img width="70px" style="float:left" src="assets/img/logosessionfinaleversionnoir.svg"><a class="navbar-brand fw-bold" href="#page-top">Session App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Fonctionnalités</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features-spots">Spots</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features-sessions">Sessions</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features-tricks">Tricks</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Telecharger</a></li>
+                        
+                    </ul>
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <span class="small">Send Feedback</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Mashead header-->
+        <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <img width="200px" style="display: inline-block;" src="assets/img/logosessionfinaleversionnoir.svg">
+                            
+                            <p class="lead fw-normal text-muted mb-5" style="text-align:justify">
+                            Skateboard, foot, tennis, pétanque, street workout, parkour, escalade, cliff, plongée, surf, kitesurf, windsurf, parapente, basejump  etc. <br><br> 
+                            Session c'est l'<strong>app du sport</strong>. Elle référence les spots où tu peux pratiquer, te permet de rencontrer d'autres sportifs et t'accompagne dans ta progression.</p>
+<!---
+                            <div class="d-flex flex-column flex-lg-row align-items-center">
+                                <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
+                                <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Masthead device mockup feature-->
+                        <div class="masthead-device-mockup">
+                            
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <!-- PUT CONTENTS HERE:-->
+                                        <!-- * * This can be a video, image, or just about anything else.-->
+                                        <!-- * * Set the max width of your media to 100% and the height to-->
+                                        <!-- * * 100% like the demo example below.-->
+                                        <img muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%" src="assets/img/demo-screen.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- App global features section-->
+        <section id="features">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-5">
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img style="width:50px" src="assets/img/pin.svg" >
+                                        <h3 class="font-alt">Spots</h3>
+                                        <p class="text-muted mb-0">Trouve des spots où pratiquer grâce à nos cartes de spots.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img style="width:50px" src="assets/img/sessions-calendar.svg" >
+                                        <h3 class="font-alt">Sessions</h3>
+                                        <p class="text-muted mb-0">Propose ou rejoins une Session, rencontre d'autres sportifs. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img style="width:50px" src="assets/img/tricks.svg" >
+                                        <h3 class="font-alt">Tricks</h3>
+                                        <p class="text-muted mb-0">Des tutos pour les tricks dans la plupart des sports.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img style="width:50px" src="assets/img/community.svg" >
+                                        <h3 class="font-alt">Communauté</h3>
+                                        <p class="text-muted mb-0">Toi aussi, fais partie de la communauté Session !</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-0">
+                        <!-- Features section device mockup-->
+                        <div class="features-device-mockup">
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <!-- PUT CONTENTS HERE:-->
+                                        <!-- * * This can be a video, image, or just about anything else.-->
+                                        <!-- * * Set the max width of your media to 100% and the height to-->
+                                        <!-- * * 100% like the demo example below.-->
+                                        <img muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%" src="assets/img/sport-screen.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App details spot features section-->
+
+        <section id="features-spots" class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <div>
+                                <img width="80px" style="float:left" src="assets/img/pin.svg">
+                                <h1 class="display-1 lh-1 mb-3 font-alt">&nbsp Spots</h1>
+                            </div>
+                            <br>
+                            <p class="lead fw-normal text-muted mb-5" style="text-align:justify">
+                            <strong><i>La carte des spots</i></strong> est à ta disposition pour tous les sports ! <br><br> Notre objectif est de proposer du <strong>contenu fiable et de qualité</strong>. Nous avons donc mis en place un système de modération : toutes les nouvelles informations sont vérifiées avant d'être publiées.<br><br>
+                            Un système de <strong>spots secrets</strong> a été mis en place pour certains sports (surf, cliff, etc.). Il a pour but de <strong>protéger les lieux les plus sauvages et les moins connus</strong>. 
+                            Seules des <strong>personnes vérifiées</strong>, respectueuses des spots et de la communauté, y ont accès. L'idée de l'application est de centraliser les données, sans les industrialiser.  
+                            <br><br>Un grand merci à tous les contributeurs et à tous les administrateurs de participer chaque jour à l'amélioration de Session !
+                            <br>
+                           </p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Masthead device mockup feature-->
+                        <div class="masthead-device-mockup">
+                            
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <!-- PUT CONTENTS HERE:-->
+                                        <!-- * * This can be a video, image, or just about anything else.-->
+                                        <!-- * * Set the max width of your media to 100% and the height to-->
+                                        <!-- * * 100% like the demo example below.-->
+                                        <img muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%" src="assets/img/demo-spot.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- App details sessions features section-->
+
+    <section id="features-sessions">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <div>
+                                <img width="80px" style="float:left" src="assets/img/sessions-calendar.svg">
+                                <h1 class="display-1 lh-1 mb-3 font-alt">&nbsp Sessions</h1>
+                            </div>
+                            <br>
+                            <p class="lead fw-normal text-muted mb-5" style="text-align:justify">
+                            <strong>Rejoins ou propose une session</strong> pour pratiquer et rencontrer d'autres passionnés !<br><br>
+                            La fonctionnalité des <strong><i>Sessions</i></strong> te permet d'être en relation avec d'autres sportifs qui souhaitent pratiquer et faire des rencontres autour de leur passion. <br><br>
+                            Ton pote t'a planté, tu ne sais pas avec qui jouer au tennis mardi prochain... Tu veux rencontrer des gens en faisant du cliff... Tu veux aller sur le spot de parapente mais tu n'as pas le permis... Tu veux faire un covoit' pour aller faire du kitesurf... <strong>Propose une Session</strong> !<br><br>
+                            <br>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Masthead device mockup feature-->
+                        <div class="masthead-device-mockup">
+                            
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <!-- PUT CONTENTS HERE:-->
+                                        <!-- * * This can be a video, image, or just about anything else.-->
+                                        <!-- * * Set the max width of your media to 100% and the height to-->
+                                        <!-- * * 100% like the demo example below.-->
+                                        <img muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%" src="assets/img/demo-session.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+    <!-- App details tricks features section-->
+
+    <section id="features-tricks" class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-8">
+                    <!-- Mashead text and app badges-->
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <div>
+                            <img width="80px" style="float:left" src="assets/img/tricks.svg">
+                            <h1 class="display-1 lh-1 mb-3 font-alt">&nbsp Tricks</h1>
+                        </div>
+                        <br>
+                        <p class="lead fw-normal text-muted mb-5" style="text-align:justify">
+                        Les <strong><i>Tricks</i></strong> te permettent de te donner un objectif à chaque session. <br><br>
+                        C'est l'outil ultime pour t'aider à t'améliorer dans les sports que tu pratiques. Tu auras une vue d'ensemble de tous les tricks et des conseils pour chacun.
+                        <br><br>
+                        Tu veux progresser ? Retiens les informations et les conseils sur le trick avant une session et mets les en pratique !
+                        <br>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <!-- Masthead device mockup feature-->
+                    <div class="masthead-device-mockup">
+                        
+                        <div class="device-wrapper">
+                            <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                <div class="screen bg-black">
+                                    <!-- PUT CONTENTS HERE:-->
+                                    <!-- * * This can be a video, image, or just about anything else.-->
+                                    <!-- * * Set the max width of your media to 100% and the height to-->
+                                    <!-- * * 100% like the demo example below.-->
+                                    <img muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%" src="assets/img/demo-tricks.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+
+        
+        <!-- App badge section-->
+        <section class="bg-gradient-primary-to-secondary" id="download">
+            <div class="container px-5">
+                <h2 class="text-center text-white font-alt mb-4">Get the app soon!</h2>
+                <!--
+                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
+                    <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                </div> -->
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2">&copy; Session App 2022. All Rights Reserved.</div>
+                    <a href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="Sessionterms.html">Terms</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Feedback Modal-->
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border-0 p-4">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
